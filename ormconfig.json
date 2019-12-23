@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "todos",
+  "password": "password",
+  "database": "todos",
+  "entities": ["dist/**/*.entity.{ts,js}"],
+  "migrations": ["dist/migrations/*.{ts,js}"],
+  "logging": true,
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
